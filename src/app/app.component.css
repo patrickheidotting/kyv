@@ -11,68 +11,6 @@ body {
   line-height: 1.6;
 }
 
-header {
-  background-color: #153734;
-  padding: 1rem 1rem 2rem 1rem;
-  position: relative;
-}
-
-.logo {
-  position: absolute;
-  left: 1rem;
-  background-color: #153734;
-  border-radius: 20%;
-  padding: 0.5rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
-
-.logo img {
-  height: 80px;
-}
-
-nav {
-  margin-left: 120px;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.nav-links li {
-  position: relative;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 0.5rem 0.75rem;
-}
-
-.nav-links li:hover > ul {
-  display: block;
-}
-
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #153734;
-  list-style: none;
-  min-width: 160px;
-  z-index: 1000;
-  border-radius: 0 0 4px 4px;
-}
-
-.dropdown li a {
-  display: block;
-  padding: 0.5rem 1rem;
-}
 
 main {
   padding: 2rem;
