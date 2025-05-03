@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import {Component} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {RouterOutlet} from '@angular/router';
 import {MenuComponent} from "./shared/menu/menu.component";
+import {FooterComponent} from "./footer/footer.component";
 
 @Component({
     selector: 'app-root',
-  imports: [CommonModule, RouterOutlet, MenuComponent],
+  imports: [CommonModule, RouterOutlet, MenuComponent, FooterComponent],
     templateUrl: './app.component.html',
     styleUrl: './app.component.css'
 })

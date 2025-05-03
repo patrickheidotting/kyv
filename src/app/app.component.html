@@ -12,42 +12,37 @@
 <body>
 <app-menu></app-menu>
 <main>
-  <h1>Neem contact met ons op</h1>
-  <p>Heb je vragen over de oldtimerdag, wil je meehelpen of gewoon iets kwijt? Laat het ons weten!</p>
-  <div class="contact-wrapper">
-    <div class="contact-info">
-      <h3>E-mailadres</h3>
-      <p>info&amp;voorbeeld.nl</p>
-      <h3>Locatie</h3>
-      <p>Klazienaveen, Drenthe</p>
-      <div class="social-icons">
-        <a href="#" aria-label="Facebook">📘</a>
-        <a href="#" aria-label="Instagram">📷</a>
-      </div>
-    </div>
-    <div class="contact-form">
-      <form>
-        <label for="name">Naam</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">E-mailadres</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="message">Bericht</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <button type="submit">Verzenden</button>
-      </form>
-    </div>
-  </div>
+  <router-outlet></router-outlet>
+  <!--  <h1>Neem contact met ons op</h1>-->
+  <!--  <p>Heb je vragen over de oldtimerdag, wil je meehelpen of gewoon iets kwijt? Laat het ons weten!</p>-->
+  <!--  <div class="contact-wrapper">-->
+  <!--    <div class="contact-info">-->
+  <!--      <h3>E-mailadres</h3>-->
+  <!--      <p>info&amp;voorbeeld.nl</p>-->
+  <!--      <h3>Locatie</h3>-->
+  <!--      <p>Klazienaveen, Drenthe</p>-->
+  <!--      <div class="social-icons">-->
+  <!--        <a href="#" aria-label="Facebook">📘</a>-->
+  <!--        <a href="#" aria-label="Instagram">📷</a>-->
+  <!--      </div>-->
+  <!--    </div>-->
+  <!--    <div class="contact-form">-->
+  <!--      <form>-->
+  <!--        <label for="name">Naam</label>-->
+  <!--        <input type="text" id="name" name="name" required>-->
+  <!---->
+  <!--        <label for="email">E-mailadres</label>-->
+  <!--        <input type="email" id="email" name="email" required>-->
+  <!---->
+  <!--        <label for="message">Bericht</label>-->
+  <!--        <textarea id="message" name="message" rows="5" required></textarea>-->
+  <!---->
+  <!--        <button type="submit">Verzenden</button>-->
+  <!--      </form>-->
+  <!--    </div>-->
+  <!--  </div>-->
 </main>
 
-<footer>
-  <p>&copy; 2025 Klazienavener Youngtimer Vrienden</p>
-  <div class="social-icons">
-    <a href="#">Facebook</a>
-    <a href="#">Instagram</a>
-  </div>
-</footer>
+<app-footer></app-footer>
 </body>
 </html>
